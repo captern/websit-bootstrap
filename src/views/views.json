@@ -24,6 +24,9 @@
         "url": "register"
     },
     {
+        "url": "topicNew"
+    },
+    {
         "url": "wiki"
     }
 ]
