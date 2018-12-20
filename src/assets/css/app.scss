@@ -72,7 +72,11 @@ body {
     font-size: 14px;
     letter-spacing: .03em;
 }
-
+.breadcrumb > li + li:before {
+    color: #CCCCCC;
+    content: "/ ";
+    padding: 0 5px;
+}
 .bd-navbar {
     height: 50px;
     padding: 0;
@@ -578,4 +582,16 @@ img.emoji { width:20px; height:20px; }
         }
         li.next { float: right; }
     }
+}
+
+
+//秒爆写样式
+.crumbs-area{
+    .groups{
+        .dropdown-header{
+            margin-left: -1rem;
+            font-size: 1rem;
+        }
+    }
+
 }
