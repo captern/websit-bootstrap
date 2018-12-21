@@ -93,27 +93,6 @@
 }
 
 
-.row > .span13 { margin-left:0;}
-#main .userinfo h1 { text-align: left; display:inline; }
-.userinfo {
-    .tagline { text-align:left; margin-top:-8px; margin-bottom:20px;}
-    .media-right {
-        padding-left: 15px;
-        text-align: center;
-        .avatar {
-            margin-bottom: 10px;
-        }
-    }
-    .list-group { margin-bottom: 0px; }
-    li {
-        border-color: #f0f0f0;
-        font-size:13px;
-        label { color:#999; margin-right:8px; display:inline-block; width:80px; text-align: right;}
-    }
-
-    .card-footer {
-    }
-}
 
 .bio {
     font-size:12px; line-height:180%;
@@ -163,7 +142,8 @@ table.node-topics {
 }
 
 .sidebar {
-    padding-right: 0;
+    //margin-left: 15px;
+    //padding-right: 0;
     .profile {
         .avatar {
             .level { margin-top: 6px; text-align: center; }
@@ -258,4 +238,8 @@ table.node-topics {
 
 .avatar-preview {
     .media-object { display: inline-block; }
+}
+
+.row{
+    margin-left: 0;
 }
