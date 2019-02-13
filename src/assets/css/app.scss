@@ -80,7 +80,7 @@ body {
 .bd-navbar {
     height: 50px;
     padding: 0;
-    background: #FFF;
+    background: #294c7b;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
     border: 0px;
     color: $primary;
@@ -107,7 +107,7 @@ body {
 
     .navbar-brand {
         line-height: 100%;
-        color: #666 !important;
+        color: #ffffff !important;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: bold;
         margin-left: 1em;
@@ -223,7 +223,8 @@ body {
     .dropdown-item.active {
         font-weight: 500;
         //color: $gray-900;
-        background-color: rgba(0, 0, 0, 0.04);
+        //background-color: rgba(0, 0, 0, 0.04);
+        background-color: #FFFFFF;
     }
 
     .user-bar {
@@ -597,3 +598,8 @@ img.emoji { width:20px; height:20px; }
     }
 
 }
+
+
+
+
+

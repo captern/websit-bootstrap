@@ -77,12 +77,36 @@ h2 {
     }
 }
 
-.home_suggest_topics {
-    .topics {
-        .topic {
-            .title {
-                height: 30px;
-                overflow: hidden;
+.topics {
+    .topic {
+        padding: 10px 0;
+        .title {
+            height: 30px;
+            overflow: hidden;
+        }
+    }
+}
+//右侧悬浮
+.sidebar {
+    .card {
+        margin-bottom: 1.25rem;
+    }
+
+    .card-body {
+        word-break: break-all;
+    }
+    .topic{
+        padding: 10px 15px;
+        .media-body{
+            .media-heading{
+                overflow: visible;
+                height: auto;
+                a{
+                    padding-top: 8px;
+                    display: inline-block;
+                    font-size: 14px;
+                    line-height: 18px;
+                }
             }
         }
     }

@@ -265,9 +265,9 @@
     .topic {
         min-height: 68px;
         border-bottom: 1px solid #F0F0F0;
-        padding: 10px 15px;
         margin: 0 -15px;
         vertical-align: top;
+        padding: 10px 15px;
         &:first-child {
             padding-top: 0;
         }
@@ -311,7 +311,6 @@
                 color: $green;
             }
         }
-
         .info {
             color: #adaaa8;
             font-size: 13px;
@@ -321,9 +320,8 @@
                 text-decoration: underline;
             }
         }
-
         .count {
-            width: 100px;
+            width: 45px;
             text-align: right;
             padding-top: 1.25rem;
             a:link,
@@ -349,6 +347,25 @@
             a.state-true,
             a:visited {
                 background: #f0f0f0;
+            }
+        }
+        //左侧的右侧
+        .col-md-3{
+            padding-left: 10px;
+            .media-body{
+                padding-top: 8px;
+                .media-heading{
+                    a{
+                        display: inline-block;
+                        font-size: 14px;
+                        line-height: 18px;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 1;
+                        overflow: hidden;
+
+                    }
+                }
             }
         }
     }
@@ -726,7 +743,7 @@
         }
     }
 }
-
+//右侧悬浮
 .sidebar {
     .card {
         margin-bottom: 1.25rem;
@@ -734,6 +751,19 @@
 
     .card-body {
         word-break: break-all;
+    }
+    .topic{
+        padding: 10px 15px;
+        .media-body{
+            .media-heading{
+                a{
+                    padding-top: 8px;
+                    display: inline-block;
+                    font-size: 14px;
+                    line-height: 18px;
+                }
+            }
+        }
     }
 }
 
