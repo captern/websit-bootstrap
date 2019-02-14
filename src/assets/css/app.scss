@@ -95,7 +95,9 @@ body {
         padding: 0px;
         .nav-link {
             padding: 15px 15px;
-            color: $primary;
+            //color: $primary;
+            //color: #294c7b;
+            color: #bcdef5;
         }
     }
 
@@ -140,18 +142,27 @@ body {
 
     #main-nav-menu {
         &.navbar-nav .nav-item a.nav-link  {
-            color: $primary;
+            //color: $primary;
+            color: #bcdef5;
             font-size: 15px;
-            border-top: 3px solid #fff;
-            border-bottom: 3px solid #FFF;
+            border-top: 3px solid #294c7b;
+            border-bottom: 3px solid #294c7b;
             transition: all .2s ease-in-out;
         }
-        &.navbar-nav .nav-item a.nav-link:active { background-color: $gray; border-bottom-color: #999; }
+        &.navbar-nav .nav-item a.nav-link:active { background-color: $gray;
+            border-bottom-color: #999;
+        }
         &.navbar-nav .nav-item {
             a:hover,
             a.active,
             a.active:focus,
-            a.active:hover { color: $red; background: transparent; border-bottom-color: $red; }
+            a.active:hover {
+                //color: $red;
+                color: #2577b1;
+                background: #ffffff;
+                border-top-color: #ffffff;
+                border-bottom-color: #ffffff;
+            }
         }
     }
 
@@ -167,6 +178,7 @@ body {
         .fa-search{
             cursor: pointer;
             position: absolute;
+            color: #bcdef5;
             top: 18px;
             left: 8px;
             transition: all .3s;
@@ -185,7 +197,7 @@ body {
             box-sizing: border-box;
             color: #333;
             &::-webkit-input-placeholder {
-                color: #aaa;
+                color: #bcdef5;
             }
         }
     }
@@ -204,10 +216,12 @@ body {
     .dropdown-menu {
         border-radius: 0;
         border: 0px;
+        font-size: 14px;
+        min-width: 130px;
         border-left: 1px solid rgba(0, 0, 0, 0.04);
         box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.10);
         .dropdown-item {
-            padding: 0.4rem 1.5rem;
+            padding: 0.3rem 1rem;
         }
     }
 
@@ -228,7 +242,6 @@ body {
     }
 
     .user-bar {
-        background: #FFF;
         min-width: 150px;
         padding-right: 15px;
     }
@@ -475,6 +488,7 @@ kbd {
 }
 .avatar-16 { width: 16px; height: 16px; border-radius: 120px; }
 .avatar-32 { width: 28px; height: 28px; border-radius: 120px; }
+.avatar-38 { width: 32px; height: 32px; border-radius: 120px; }
 .avatar-48 { width: 40px; height: 40px; border-radius: 120px; }
 .avatar-96 { width: 96px; height: 96px; border-radius: 120px; }
 @media (max-width: 480px) {
@@ -586,7 +600,7 @@ img.emoji { width:20px; height:20px; }
 }
 
 
-//秒爆写样式
+//面包屑样式
 .crumbs-area{
     .groups{
         .dropdown-header{
@@ -596,7 +610,26 @@ img.emoji { width:20px; height:20px; }
             padding-bottom: 0;
         }
     }
+    .media-right{
+        height: 45px;
+        line-height: 45px;
+        .nav-item{
+            .new-topic{
+                display: block;
+                box-sizing: border-box;
+                background-color: #007bff;
+                border-color: #007bff;
+                padding: 0 10px!important;
+                color: #fff;
+                border-radius: 0.25rem;
+                &:hover{
+                    text-decoration: navajowhite;
+                }
+            }
+        }
 
+
+    }
 }
 
 
