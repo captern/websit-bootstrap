@@ -632,7 +632,22 @@ img.emoji { width:20px; height:20px; }
     }
 }
 
-
+//底部导航
+.footer{
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #0f3652;
+    .dropdown-toggle{
+        border: none;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+    .footer-text{
+        margin-top: 0;
+        border:none;
+    }
+}
 
 
 
