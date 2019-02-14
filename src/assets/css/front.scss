@@ -1302,3 +1302,32 @@ textarea.div-dropzone-focus {
         }
     }
 }
+
+
+//右侧悬浮
+.hot-right {
+    .card {
+        margin-bottom: 1.25rem;
+    }
+
+    .card-body {
+        word-break: break-all;
+    }
+    .topic{
+        align-items: center;
+        padding: 10px 15px;
+        .media-body{
+            .media-heading{
+                overflow: visible;
+                height: auto;
+                a{
+                    padding-top: 8px;
+                    display: inline-block;
+                    font-size: 14px;
+                    line-height: 18px;
+                }
+            }
+        }
+    }
+}
+
