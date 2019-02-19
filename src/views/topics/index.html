@@ -9,10 +9,55 @@
 #include("../../assets/html/subNavbar.html")
 
 <div id="main" class="main-container container">
-    #include("../../assets/html/crumbs.html")
     <div class="row">
         <div class="col-md-9">
+            <div class="clearfix top">
+                <ul class="pagination pull-left">
+                    <li class='page-item active'>
+                        <a remote="false" class="page-link">1</a>
+                    </li>
 
+                    <li class="page-item">
+                        <a rel="next" class="page-link" href="/topics?page=2">2</a>
+                    </li>
+
+                    <li class="page-item">
+                        <a class="page-link" href="/topics?page=3">3</a>
+                    </li>
+
+                    <li class="page-item">
+                        <a class="page-link" href="/topics?page=4">4</a>
+                    </li>
+
+                    <li class="page-item">
+                        <a class="page-link" href="/topics?page=5">5</a>
+                    </li>
+
+                    <li class='page-item disabled'>
+                        <a class="page-link">&hellip;</a>
+                    </li>
+
+                    <li class="page-item">
+                        <a class="page-link" href="/topics?page=58">58</a>
+                    </li>
+
+                    <li class="page-item">
+                        <a class="page-link" href="/topics?page=59">59</a>
+                    </li>
+
+                    <li class="page-item">
+                        <a class="page-link" href="/topics?page=60">60</a>
+                    </li>
+
+                    <li class="page-item next">
+                        <a rel="next" class="page-link" href="/topics?page=2">下一页 <i class="fa fa-angle-right"></i></a>
+                    </li>
+
+                </ul>
+                <div class="pull-right">
+                    <a class="new-topic" href="./topicNew.html"> + 发布新话题</a>
+                </div>
+            </div>
             <div class="topics topics-index card">
 
                 <div class="card-body item-list">
@@ -663,7 +708,6 @@
 
                 </div>-->
             </div>
-
             <div class="clearfix">
                 <ul class="pagination">
                     <li class='page-item active'>
@@ -736,9 +780,9 @@
             <div class="card">
                 <div class="card-header">推荐文章</div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><i class='fa fa-cloud'></i> <a href="/wiki/ruby-mirror">Ruby 镜像</a></li>
-                    <li class="list-group-item"><i class='fa fa-diamond'></i> <a href="https://gems.ruby-china.com" target="_blank">RubyGems 镜像</a></li>
-                    <li class="list-group-item"><i class='fa fa-youtube-play'></i> <a href="http://railscasts.com" target="_blank" rel="nofollow">Rails 视频教程</a></li>
+                    <!--<li class="list-group-item"><i class='fa fa-cloud'></i> <a href="/wiki/ruby-mirror">Ruby 镜像</a></li>-->
+                    <!--<li class="list-group-item"><i class='fa fa-diamond'></i> <a href="https://gems.ruby-china.com" target="_blank">RubyGems 镜像</a></li>-->
+                    <!--<li class="list-group-item"><i class='fa fa-youtube-play'></i> <a href="http://railscasts.com" target="_blank" rel="nofollow">Rails 视频教程</a></li>-->
                     <li class="list-group-item"><i class='fa fa-archive'></i> <a href="https://rails.guide/book/">Rails Guides 中文版</a></li>
                     <li class="list-group-item"><i class="fa fa-archive"></i> <a href="https://railstutorial-china.org">Ruby on Rails 教程</a></li>
                 </ul>

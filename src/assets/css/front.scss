@@ -48,7 +48,8 @@
             .navbar-topic-title {
                 display: block;
             }
-            #main-nav-menu {
+            //#main-nav-menu {
+            .main-nav-menu {
                 display: none;
             }
             .nav-search {
@@ -130,6 +131,7 @@
         }
     }
 }
+
 
 .move-page-buttons {
     position: fixed;

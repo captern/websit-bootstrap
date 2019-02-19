@@ -86,6 +86,29 @@ h2 {
     }
 }
 
+.media-right{
+
+}
+@media (max-width: 767px) {
+    .crumbs-area{
+        margin-left: -15px!important;
+    }
+    .col-md-9{
+        padding-left: 0!important;
+    }
+    .topics{
+        .topic{
+            .media{
+                &.sidebar{
+                    display: none;
+                }
+            }
+        }
+    }
+    .ipsDataItem_stats{
+        display: none;
+    }
+}
 .topics {
     .topic {
         padding: 10px 0;
@@ -182,4 +205,13 @@ h2 {
             }
         }
     }
+}
+//右侧头像
+.dropdown-avatar{
+    .nav-link{
+        padding: 12px 5px!important;
+    }
+}
+.footer{
+    a:hover { color: #007bff; }
 }

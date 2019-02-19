@@ -20,3 +20,19 @@
 .t3{
     font-size: 100px;
 }
+.clearfix{
+    &.top{
+        margin-bottom: 20px;
+        .pull-right{
+            .new-topic{
+                display: block;
+                background: #007bff;
+                height: 35px;
+                line-height: 35px;
+                color: #ffffff;
+                padding: 0 10px;
+                border-radius: 5px;
+            }
+        }
+    }
+}
