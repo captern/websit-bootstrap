@@ -15,7 +15,6 @@ npm-debug.log*
 .sourcemaps/
 coverage/
 node_modules/
-dist/
 tmp/
 temp/
 $RECYCLE.BIN/
