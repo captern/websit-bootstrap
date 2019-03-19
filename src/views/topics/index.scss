@@ -17,14 +17,15 @@
     text-overflow: ellipsis;
 }
 
-.t3{
+.t3 {
     font-size: 100px;
 }
-.clearfix{
-    &.top{
+
+.clearfix {
+    &.top {
         margin-bottom: 20px;
-        .pull-right{
-            .new-topic{
+        .pull-right {
+            .new-topic {
                 display: block;
                 background: #007bff;
                 height: 35px;
@@ -35,4 +36,7 @@
             }
         }
     }
+}
+.topics-index{
+    margin-top: -8px;
 }
