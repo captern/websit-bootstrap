@@ -26,3 +26,14 @@
         padding-bottom: 15px;
     }
 }
+.reply{
+    border-bottom: 1px solid rgba(0,0,0, 0.2)!important;
+    .card-footer{
+        background: #FFFFFF;
+        margin-top: 10px;
+        padding-left: 0;
+    }
+    .infos{
+        min-height: 100px;
+    }
+}
